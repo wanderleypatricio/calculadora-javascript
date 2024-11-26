@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #333;
+}
+
+.container{
+    width: 20%;
+    height: 430px;
+    background-color: #e69807;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.input-visor{
+    width: 90%;
+    height: 60px;
+    padding: 12px;    
+}
+
+.visor{
+    width: 92%;
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botoes{
+    width: 90%;
+    height: 250px;
+    margin-left: 20px;
+}
+.botao{
+    width: 55px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 5px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="input-visor">
+            <input type="text" name="visor" class="visor" id="visor"/>
+        </div>
+        <div class="botoes">
+            <button class="botao" onclick="limpar()">AC</button>
+            <button class="botao" onclick="calcularRaiz()">&#8730;</button>
+            <button class="botao" onclick="capturarValor('%')">%</button>
+            <button class="botao" onclick="apagar()">&#9003;</button>
+            <button class="botao" onclick="capturarValor('7')">7</button>
+            <button class="botao" onclick="capturarValor('8')">8</button>
+            <button class="botao" onclick="capturarValor('9')">9</button>
+            <button class="botao" onclick="capturarValor('*')">X</button>
+            <button class="botao" onclick="capturarValor('4')">4</button>
+            <button class="botao" onclick="capturarValor('5')">5</button>
+            <button class="botao" onclick="capturarValor('6')">6</button>
+            <button class="botao" onclick="capturarValor('/')">/</button>
+            <button class="botao" onclick="capturarValor('1')">1</button>
+            <button class="botao" onclick="capturarValor('2')">2</button>
+            <button class="botao" onclick="capturarValor('3')">3</button>
+            <button class="botao" onclick="capturarValor('-')">-</button>
+            <button class="botao" onclick="capturarValor('0')">0</button>
+            <button class="botao" onclick="capturarValor('.')">.</button>
+            <button class="botao" onclick="calcular()">=</button>
+            <button class="botao" onclick="capturarValor('+')">+</button>
+        </div>
+    </div>
+    <audio id="beep" src="beep.mp3"></audio>
+    <script src="./js/script.js"></script>
+</body>
+</html>
